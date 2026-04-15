@@ -1,4 +1,4 @@
-  ---
+---
 name: vite-dockerfile
 description: Creates a production-ready multi-stage Dockerfile for a Vite SPA served by nginx. Auto-detects the package manager (npm/yarn/pnpm), Node version, build output directory, and VITE_-prefixed environment variables from the project. Produces a Dockerfile, a minimal nginx.conf with SPA routing fallback, and a .dockerignore. Use when the user asks to containerize, dockerize, or create a Dockerfile for a Vite, React, Vue, Svelte, or similar static SPA project.
 ---
